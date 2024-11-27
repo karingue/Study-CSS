@@ -14,3 +14,7 @@ body{
     padding: 7px;
     background-color: lightslategray;
 }
+
+nav {
+    text-align: center;
+}
