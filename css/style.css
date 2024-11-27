@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.topHeader{
+    text-align: center;
+    font-size: medium;
+    width: 100%;
+    padding: 7px;
+    background-color: lightslategray;
+}
