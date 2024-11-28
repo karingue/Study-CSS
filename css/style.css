@@ -4,6 +4,7 @@ body{
 
 
 h1{
+    letter-spacing: 2px;
     color: white;
     border: 1px outset black;
     border-radius: 15px;
@@ -14,11 +15,19 @@ h1{
 }
 
 p{
-    color: red;
+    color: black;
+    text-align: justify;
+    text-indent: 30px; /* Da o espaço como se fosse um paragrafo */
+    letter-spacing: 5px; /* Da o espaçamento entre as letras*/
+    line-height: 1.0;/* Da espaço entre a linha de cima e a linha de baixo*/
+    word-spacing: 5px; /* Da espaço entre uma palavra e outra*/
+    
 }
 
+
 .botão{
-    margin-left: 33%;
+    margin-left: 45%;
+    text-align: center;
     background: green;
     color: white;
     padding: 1.5%; 
@@ -27,6 +36,18 @@ p{
 }
 .botão:hover{ /*Hover cria uma animação ao passar o mouse por cima do elemento*/
     background-color: blue;
+}
+
+.topHeader{
+    text-align: center;
+    margin: 20px;
 
 }
 
+#pteste{
+    max-width: 3000px;
+    max-height: 150px;
+    margin: 50px;
+    background-color: grey;
+    text-align: center;
+}

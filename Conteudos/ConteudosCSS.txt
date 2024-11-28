@@ -19,6 +19,12 @@ hidden
 Margin : Da espaçamento envolta do elemento
 Padding : Da espaçamento dentro do elemento
 
+text-indent: 30px; /* Da o espaço como se fosse um paragrafo */
+letter-spacing: 5px; /*Da o espaçamento entre as letras*/
+word-spacing: 5px; /* Da espaço entre uma palavra e outra*/
+line-height: 1.0;/* Da espaço entre a linha de cima e a linha de baixo*/
+
+
 
 .botão{
     margin-left: 33%;
