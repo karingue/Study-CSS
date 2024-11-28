@@ -1,0 +1,33 @@
+*{
+
+} Essa expressão é usada para dar uma determinada caracteristica em todas as tags da aplicação, de forma que todas tenham os mesmos atributos
+
+
+tipos de Border:
+solid
+dotted
+dashed
+double
+groove
+ridge
+inset
+outset
+none
+hidden
+
+
+Margin : Da espaçamento envolta do elemento
+Padding : Da espaçamento dentro do elemento
+
+
+.botão{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding: 50px; 
+    text-decoration: none;
+    border-radius: 25px;
+}
+.botão:hover{ Hover cria uma animação ao passar o mouse por cima do elemento
+    background-color: blue;
+}

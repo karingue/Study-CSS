@@ -1,24 +1,32 @@
 body{
-    background-color: white;
-    margin: 0;
+    margin: 0px;
 }
 
-*{
-    box-sizing: border-box;
-}
 
-.topHeader{
+h1{
+    color: white;
+    border: 1px outset black;
+    border-radius: 15px;
     text-align: center;
-    font-size: medium;
-    width: 100%;
-    padding: 7px;
-    background-color: lightslategray;
-}
-.topHeader h1{
-    color: rgb(20, 82, 254);
-    font-size: 88px;
+    background: black;
+    margin: 30px; /*Da espaçapamento envolta do elemento*/
+    padding: 10px; /*Da espaçamento dentro do elemento*/
 }
 
-nav {
-    text-align: center;
-} 
+p{
+    color: red;
+}
+
+.botão{
+    margin-left: 33%;
+    background: green;
+    color: white;
+    padding: 1.5%; 
+    text-decoration: none;
+    border-radius: 25px;
+}
+.botão:hover{ /*Hover cria uma animação ao passar o mouse por cima do elemento*/
+    background-color: blue;
+
+}
+
