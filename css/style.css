@@ -3,19 +3,54 @@ body{
 }
 .borda{
     border:3px solid red;
-    
 }
 
-li{
-    display: inline;
+.ex2{
+    max-width: 800px;
+}
+.ex1{
+    max-width: 800px;
 }
 
-.azul{
-    color: blue;
+.container{
+    display: inline-block;
+    background: blue;
+    width: 100%;
+    height: 400px
 }
-.verde{
-    color: green;
+
+.div1{
+    width: 30%;
+    display: inline-block;
+    background: yellow;
+    height: 100px;
+    position: relative;
+    left: 60px;
+    z-index: 2;
 }
-.vermelho{
-    color: red;
+
+.div2{
+    position: relative;/* Define a posição relativa do meu elemento*/
+    z-index: 3;
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    background: white;
+}
+
+.div3{
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    background: red;
+}
+
+.whats{/* Definindo um elemento para ser usado como se fosse de suporte de páginas padrão por ai*/
+    background: green;
+    color: white;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
 }
