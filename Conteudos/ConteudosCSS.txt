@@ -44,3 +44,5 @@ line-height: 1.0;/* Da espaço entre a linha de cima e a linha de baixo*/
 font-family:Arial, Helvetica, sans-serif; /* Escolher a fonte do elemento*/
 font-size: 15px;/* Escolher o tamanho da fonte*/
 font-weight: 400; /*Escolher a grossura da fonte */
+
+display: flex; /* Define a responsividade do elememtos*/

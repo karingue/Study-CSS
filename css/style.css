@@ -1,0 +1,11 @@
+body{
+    margin:0;
+}
+.borda{
+    border:3px solid red;
+    display: flex; /* Define a responsividade do elememtos*/
+}
+
+#p1{
+    display: none;
+}
