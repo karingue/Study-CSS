@@ -46,3 +46,11 @@ font-size: 15px;/* Escolher o tamanho da fonte*/
 font-weight: 400; /*Escolher a grossura da fonte */
 
 display: flex; /* Define a responsividade do elememtos*/
+
+#p1{
+    display: block;/* Utilizando para criar eventos de display, como desaparecer elementos*/
+}
+
+#p1:hover{
+    display: none;
+}

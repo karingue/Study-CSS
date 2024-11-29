@@ -3,9 +3,19 @@ body{
 }
 .borda{
     border:3px solid red;
-    display: flex; /* Define a responsividade do elememtos*/
+    
 }
 
-#p1{
-    display: none;
+li{
+    display: inline;
+}
+
+.azul{
+    color: blue;
+}
+.verde{
+    color: green;
+}
+.vermelho{
+    color: red;
 }
