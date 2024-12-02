@@ -1,0 +1,8 @@
+Hierarquia de especificidade
+
+A hierarquia sempre começa a partir do arquivo Interno, depois disso os arquivos externos terão a maior importância
+
+1°Inline Styles Ex: <h1 style="color:pink;">
+2°Ids Ex: #navbar
+3°Classes, pseudo-classes, attribute selectors Ex .test, :hover, [href]
+4°Elements and pseudo elements Ex: h1, ::before

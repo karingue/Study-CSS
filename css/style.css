@@ -1,49 +1,19 @@
 body{
-    margin:0;
-    overflow-y: hidden;
+    margin: 0;
 }
 
-
-.container{
-    border: 1px solid black;  
-    overflow: auto;
+#titulo{
+    color: blue;
 }
 
-
-.container img{
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
+h1 .red{
+    color: red;
 }
 
-/* TODO Tomar como base de um menu de seleção */
-
-ul{
-    background: black;
-    padding: 20px;
+.red{
+    color: red;
 }
 
-li{
-    display: inline-block;
- }
-
- li a{
-    color:white; 
-    text-decoration: none;
-    padding: 20px;
- }
- li a:hover{
-    background: #ccc;
-    color: black;
- }
-
-/* TODO Tomar como base de um menu de seleção */
-
-
-.login{
-    float:right;
-}
-
-.login a:hover{
-    background: orangered;
+h1{
+    color: greenyellow !important; /*? A tag !important, define qual dos três seletores de um determinado elemento deve prevalecer e ser a mais importante mesmo o style sendo definido na página principal,esse comando pode quebrar a regra de importância da página principal*/
 }
