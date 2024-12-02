@@ -1,4 +1,4 @@
-TAG <span> em html é uma tag como a <div> porém ela não faz quebra de linha
+TAG <span> emhtmléumatagcomoa<div>porémelanãofazquebradelinha
 
 *{
 
@@ -81,3 +81,13 @@ display: flex; /* Define a responsividade do elememtos*/
     width: 30%;
     display: inline-block;
     background: rgb(237, 3, 250);
+
+    div3{
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    background: red;
+    position: absolute; /* Definindo a posição do elemento dentro de outro elemento, apenas funciona se o elemento pai tem posição definida*/
+    top: 150px;
+    right: 50%;
+}
