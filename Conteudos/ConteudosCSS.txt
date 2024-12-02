@@ -67,9 +67,17 @@ display: flex; /* Define a responsividade do elememtos*/
 
 .div2{
     position: relative;/* Define a posição relativa do meu elemento*/
-    z-index: 3;
+    z-index: 3; / Define em qual camada da página o elemento vai ficar
     height: 100px;
     width: 30%;
     display: inline-block;
     background: white;
 }
+
+.div2{
+    position: sticky;/* Ao dar Scrool na página, faz com que o elemento fique grudado na tela e acompanhe*/
+    z-index: 3;
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    background: rgb(237, 3, 250);
