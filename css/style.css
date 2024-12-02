@@ -4,17 +4,46 @@ body{
 }
 
 
-.exemplo{
-    background: rgb(143, 143, 161);
-    color: rgb(0, 0, 0);
-    height: 150px; /* TODO Overflow apenas funciona caso a altura do elemento seja definida*/
-    overflow:auto; /* TODO Apenas mostra os itens que cabem dentro do objeto, caso o item não couber, ele automaticamente não apresenta o item*/
-} 
+.container{
+    border: 1px solid black;  
+    overflow: auto;
+}
 
 
+.container img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+/* TODO Tomar como base de um menu de seleção */
+
+ul{
+    background: black;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+ }
+
+ li a{
+    color:white; 
+    text-decoration: none;
+    padding: 20px;
+ }
+ li a:hover{
+    background: #ccc;
+    color: black;
+ }
+
+/* TODO Tomar como base de um menu de seleção */
 
 
+.login{
+    float:right;
+}
 
-
-
-
+.login a:hover{
+    background: orangered;
+}
