@@ -44,3 +44,96 @@ line-height: 1.0;/* Da espaço entre a linha de cima e a linha de baixo*/
 font-family:Arial, Helvetica, sans-serif; /* Escolher a fonte do elemento*/
 font-size: 15px;/* Escolher o tamanho da fonte*/
 font-weight: 400; /*Escolher a grossura da fonte */
+
+display: flex; /* Define a responsividade do elememtos*/
+
+#p1{
+    display: block;/* Utilizando para criar eventos de display, como desaparecer elementos*/
+}
+
+#p1:hover{
+    display: none;
+}
+
+
+
+________POSITION_________
+.whats{ /* Definindo um elemento para ser usado como se fosse de suporte de páginas padrão por ai*/
+    background: green;
+    color: white;
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.div2{
+    position: relative;/* Define a posição relativa do meu elemento*/
+    z-index: 3; / Define em qual camada da página o elemento vai ficar
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    background: white;
+}
+
+.div2{
+    position: sticky;/* Ao dar Scrool na página, faz com que o elemento fique grudado na tela e acompanhe*/
+    z-index: 3;
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    background: rgb(237, 3, 250);
+
+    div3{
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    background: red;
+    position: absolute; /* Definindo a posição do elemento dentro de outro elemento, apenas funciona se o elemento pai tem posição definida*/
+    top: 150px;
+    right: 50%;
+}
+
+
+
+
+_____OVERFLOW_______________
+.exemplo{
+    background: rgb(143, 143, 161);
+    color: rgb(0, 0, 0);
+    height: 50px; /* TODO Overflow apenas funciona caso a altura do elemento seja definida*/
+    overflow:hidden; /* TODO Apenas mostra os itens que cabem dentro do objeto, caso o item não couber, ele automaticamente não apresenta o item*/
+} 
+
+/* TODO Tomar como base de um menu de seleção */
+
+ul{
+    background: black;
+    padding: 20px;
+}
+
+li{
+    display: inline-block;
+ }
+
+ li a{
+    color:white; 
+    text-decoration: none;
+    padding: 20px;
+ }
+ li a:hover{
+    background: #ccc;
+    color: black;
+ }
+
+/* TODO Tomar como base de um menu de seleção */
+
+
+.login{
+    float:right;
+}
+
+.login a:hover{
+    background: orangered;
+}

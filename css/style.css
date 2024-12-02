@@ -1,110 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom&display=swap'); /* Importando uma fonte*/
 
 body{
-    margin: 0px;
+    margin:0;
 }
 
 
-h1{
-    letter-spacing: 2px;
+ul{
+    background:black;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+li{ 
+    float:left;
+}
+
+li a, dropbtn{ /* TODO Aqui defininindo as carateristicas dos botões */
+    display: inline-block;
     color: white;
-    border: 1px outset black;
-    border-radius: 15px;
+    text-decoration: none;
     text-align: center;
-    background: black;
-    margin: 30px; /*Da espaçapamento envolta do elemento*/
-    padding: 10px; /*Da espaçamento dentro do elemento*/
+    padding:14px 16px;  
 }
 
-p{
-    color: black;
-    text-align: justify;
-    text-indent: 30px; /* Da o espaço como se fosse um paragrafo */
-    letter-spacing: 5px; /* Da o espaçamento entre as letras*/
-    line-height: 1.0;/* Da espaço entre a linha de cima e a linha de baixo*/
-    word-spacing: 5px; /* Da espaço entre uma palavra e outra*/
-    font-family:Noto serif Ahom; /* Escolher a fonte do elemento*/
-    font-size: 15px;/* Escolher o tamanho da fonte*/
+li a:hover, .dropdown:hover .dropbtn{ /**? Aqui estou passando a animação de mudança da cor do botão ao passar o mouse por cima*/
+    background: red;
+}
+li.dropdown{ /* TODO Aqui estou definindo o tipo de display do seletor*/
+    display: inline-block;
 }
 
-
-
-
-.topHeader{
-    text-align: center;
-    margin: 20px;
-
-}
-
-a.botao1{
-     background: lightgreen;
-     color: white;
-     padding: 10px;
-     text-decoration: none;
-     border: 4px solid greenyellow;
-     border-radius: 5px;
-}
-
-a.botao1:hover{
-    background: darkgreen;
-    padding: 13px;
-    border: 4px solid greenyellow;
-}  
-
-a.botao2{
-    text-decoration: none;
-    padding: 10px;
-    border: 5px double blue;
-    color:blue;
-}
-
-a.botao2:hover{
-    text-decoration: underline;
-    padding: 8px;
-    background: blue;
-    color: white;
-}
-
-a.botao3{
-    color: black;
-    text-decoration: none;
-
-}
-
-a.botao3:hover{
-    border-bottom:5px solid rgb(255, 0, 0);
-}
-
-a.botao4{
-    text-decoration: none;
-    color: blue;
-    font-size: 18px;
-}
-
-a.botao4:hover{
-    font-size: 22px;
-    font-weight: bold;
-}
-
-a.botao5{
-    margin:50%;
-    text-align: center;
-    background: black;
-    border: 3px solid black;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 10px;
-    border-radius:15px;
-    border: 4px double black;
-}
-
-a.botao5:hover{
-    color:black;
+.dropdown-content{ /**? Aqui estou passando o parâmetro do tamanho do meus seletores e a sua posição e dosplay*/
+    display:none;
+    position: absolute;
     background: white;
+    width: 150px;
 }
 
-    
+.dropdown-content a{ /**? Aqui estou passando o parâmetro que está relacionado ao seletores, seu display e caracteristicas*/
+    color:black;
+    display: block;
+    text-align: left; 
+    text-decoration: none;
+    border:1px solid rgb(207,207,207);
+}
 
+.dropdown-content a:hover{ /* Definindo a cor dos seletores ao passar o mouse por eles*/
+    color: white;
+}
 
+.dropdown:hover .dropdown-content{ /* TODO Aqui estou passando o parâmetro para o código que quando o mouse passar por cima do seletor ele mostrar o contéudo*/
+    display: block;
+}
 
-
+ 
