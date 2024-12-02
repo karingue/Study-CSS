@@ -55,6 +55,9 @@ display: flex; /* Define a responsividade do elememtos*/
     display: none;
 }
 
+
+
+________POSITION_________
 .whats{ /* Definindo um elemento para ser usado como se fosse de suporte de páginas padrão por ai*/
     background: green;
     color: white;
@@ -91,3 +94,15 @@ display: flex; /* Define a responsividade do elememtos*/
     top: 150px;
     right: 50%;
 }
+
+
+
+
+_____OVERFLOW_______________
+.exemplo{
+    background: rgb(143, 143, 161);
+    color: rgb(0, 0, 0);
+    height: 50px; /* TODO Overflow apenas funciona caso a altura do elemento seja definida*/
+    overflow:hidden; /* TODO Apenas mostra os itens que cabem dentro do objeto, caso o item não couber, ele automaticamente não apresenta o item*/
+} 
+
