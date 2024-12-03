@@ -1,4 +1,4 @@
-TAG <span> emhtmléumatagcomoa<div>porémelanãofazquebradelinha
+TAG <span> em html é uma tag como a <div> porém ela não faz quebra de linha
 
 *{
 
