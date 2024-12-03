@@ -22,8 +22,20 @@ h1{
 .box{
     background: white;
     width: 40%;
-    height: 450px;
+    height: auto;
     box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin: auto;
     text-align: center;
+}
+
+.reduzido{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 20px;
+}
+
+.box:hover .reduzido{
+    white-space: normal;
+
 }
