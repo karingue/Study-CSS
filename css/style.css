@@ -2,20 +2,52 @@
     box-sizing: border-box;
 }
 
-.flex-pai{
-    background:blue;
-    height: 400px;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center; /*TODO Faz o alinhamento do itens de forma horizontal*/
-    align-items:center; /*TODO Faz o alinhamento dos itens de forma vertical EM NIVEL INDIVIDUAL*/
-    align-content: center;/*TODO Faz o alinhamento dos itens de forma vertical EM NIVEL DE GRUPO*/
+body{
+    margin: 0;
 }
 
-.flex-pai div{
-    flex-grow:1; /* TODO Faz o crescimento dos elementos de uma forma em que todos eles fiquem uniformes, e sempre deve ser no elemento filho*/
-    background: white;
-    border: 1px solid black;
-    padding: 30px;
+.header{
+    background: darkgreen;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: black;
+
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
     text-align: center;
 }
+
+.navbar a:hover{
+    background: gray;
+    color: black;
+    font-weight: bold;
+}
+
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card{
+    flex-grow: 1;
+    background: #ccc;
+    height: 400px;
+    margin: 1%;
+}
+
+@media screen and (max-width:700px){
+    .navbar{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+} 
