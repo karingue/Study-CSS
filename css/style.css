@@ -1,41 +1,21 @@
-/* Smartphones (600px para baixo) */
-@media only screen and (max-width: 600px) {
-    body{
-        background: orangered;
-    }
+*{
+    box-sizing: border-box;
 }
 
-/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
-@media only screen and (min-width: 600px) {
-    body{
-        background: green;
-    }
+.flex-pai{
+    background:blue;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; /*TODO Faz o alinhamento do itens de forma horizontal*/
+    align-items:center; /*TODO Faz o alinhamento dos itens de forma vertical EM NIVEL INDIVIDUAL*/
+    align-content: center;/*TODO Faz o alinhamento dos itens de forma vertical EM NIVEL DE GRUPO*/
 }
 
-/*Dispostivos Médios (Tablets deitados, 768px para cima) */
-@media only screen and (min-width: 768px) {
-    body{
-        background: yellow;
-    }
-}
-
-/* Dispostivos Largos (laptops/desktops, 992px para cima) */
-@media only screen and (min-width: 992px) {
-    body{
-        background: red;
-    }
-    .x
-}
-
-/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
-@media only screen and (min-width: 1200px) {
-    body{
-        background: blue;
-    }
-}
-
-@media only screen and (min-width: 1600px){
-    body{
-        background: yellowgreen;
-    }
+.flex-pai div{
+    flex-grow:1; /* TODO Faz o crescimento dos elementos de uma forma em que todos eles fiquem uniformes, e sempre deve ser no elemento filho*/
+    background: white;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
 }
