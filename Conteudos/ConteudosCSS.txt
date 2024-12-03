@@ -5,6 +5,7 @@ TAG <span> em html é uma tag como a <div> porém ela não faz quebra de linha
 } Essa expressão é usada para dar uma determinada caracteristica em todas as tags da aplicação, de forma que todas tenham os mesmos atributos
 
 
+
 tipos de Border:
 solid
 dotted

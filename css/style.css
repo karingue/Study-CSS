@@ -2,18 +2,28 @@ body{
     margin: 0;
 }
 
-#titulo{
-    color: blue;
-}
-
-h1 .red{
-    color: red;
-}
-
-.red{
-    color: red;
-}
-
 h1{
-    color: greenyellow !important; /*? A tag !important, define qual dos três seletores de um determinado elemento deve prevalecer e ser a mais importante mesmo o style sendo definido na página principal,esse comando pode quebrar a regra de importância da página principal*/
+    text-shadow: 2px 2px 5px red;
+    margin: 15px;
+}
+
+.branco{
+    color:white;
+    text-shadow: 2px 2px 4px black;
+    margin: 15px;
+}
+
+.multipla{
+    color: black;
+    text-shadow: 0px 0px 4px blue , 2px 2px 5px yellow;
+    margin: 15px;
+}
+
+.box{
+    background: white;
+    width: 40%;
+    height: 450px;
+    box-shadow: 0px 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin: auto;
+    text-align: center;
 }
