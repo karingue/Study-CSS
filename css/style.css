@@ -107,6 +107,7 @@ body{
     margin-left: 5%;
     flex: 40%;
     text-align: center;
+    box-shadow: 10px 10px 15px #ff2978, 0 10px 15px #ff2978;
 }
 
 .img-headline img{
@@ -147,6 +148,7 @@ section h2{
     border: 1px solid #ff2978;
     border-radius: 10px;
     cursor: pointer;
+    box-shadow: 10px 10px 15px #ff2978, 0 10px 15px #ff2978
 }
 
 .texto-oculto{
