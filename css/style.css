@@ -15,13 +15,14 @@ body{
     background: white;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    width: 100%;
 }
 
 .logo{
     flex:20%;
-    margin-left: 10%;
-    text-align: center;
-
+    margin-left: 5%;
+    text-align: left;
 }
 .logo h1{
     font-family: "Playwrite HR Lijeva", cursive;
@@ -60,21 +61,137 @@ body{
     background: #ff2978;
 }
 
-.header{
+.header {
     display: flex;
-    flex-flow: row wrap;
-    height: 600px;
-    background: gray;
+    flex-flow: row wrap; /* Garantir que os itens fiquem na mesma linha */
+    background: white;
+    align-items: center; /* Centraliza verticalmente os itens */
+    justify-content: center; /* Adiciona espaçamento entre os itens */
+    padding-top: 100px;
 }
 
-.headline{
-    margin-left: 10%;
+.headline {
+    margin: left 10%;
     flex: 40%;
-    border: 1px solid black;
+    margin: 5%;
 }
 
-.img-headline{
-    margin-right: 10%;
-    flex:40%;
-    border:1px solid deeppink;
+.headline h2 {
+    font-weight: 900;
+    font-size: 20px;
+    color: #180F4A;
+    margin: 0;
+    padding:0;
+}
+
+.headline p{
+    color: gray;
+    text-align: left;
+}
+
+.contact-btn{
+    display: inline-block;
+    background: #ff2978;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.contact-btn:hover{
+    background: #180F4A;
+}
+
+.img-headline {
+    margin-right: 5%;
+    margin-left: 5%;
+    flex: 40%;
+    text-align: center;
+}
+
+.img-headline img{
+    max-width: 90%;
+    height: auto;
+}
+
+section{
+    display: inline-block;
+    margin-top: 80px;
+    /* border: 1px solid black; */
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    padding: 5%;
+}
+
+section h2{
+    width: 100%;
+    font-size: 50px;
+    margin:0;
+    font-family: "Playwrite HR Lijeva", cursive;
+    font-weight: bold;
+    color:#180F4A;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+}
+
+.card{
+    display: inline-block;
+    width: 25%;
+    height: 300px;
+    padding: 20px;
+    margin:1%;
+    border: 1px solid #ff2978;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.texto-oculto{
+    display: none;
+}
+
+.card:hover{
+    background: #ff2978;
+    color: white;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .card-text{
+    display: none;
+}
+
+.card:hover .texto-oculto{
+    display: block;
+}
+
+footer{
+    margin-top:100px;
+    height: 400px;
+    background-image: linear-gradient(180deg,#180F4A,#090422,black);
+    text-align: center;
+    border-top:5px solid #ff2978;
+}
+
+.logo-rodape{
+    padding: 100px;
+    
+}
+
+.agencia{
+    font-family: "Playwrite HR Lijeva", cursive;
+    color:white ;
+    font-size: 34px;
+}
+
+.whats{
+    position: fixed;
+    bottom:5px;
+    right:5px; 
 }

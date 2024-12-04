@@ -1,0 +1,67 @@
+@media screen and (max-width:1050px){
+    
+    .navbar{
+        position: relative;
+    }
+
+    .menu{
+        display:none
+    }
+
+    .logo{
+        margin:0;
+        text-align: center;
+    }
+
+    .header{
+        padding-top:50px;
+    }
+
+    .headline{
+        flex: 100%;
+        margin: 5%;
+        text-align: center;
+        margin:0 0 20px 0;
+    }
+    
+    .headline p{
+        text-align: center;
+        margin: 5%;
+    }
+    
+    .img-headline{
+        flex: 100%;
+        text-align: center;
+        margin: 5%;
+    }
+    
+    .whats{
+        display: none;
+    }
+
+    .card{
+        width: 100%;
+    }
+    
+    .texto-oculto{
+        display: none;
+    }
+    
+    .card:hover{
+        background: #ff2978;
+        color: white;
+        padding: 40px;
+    }
+    
+    .card:hover img{
+        display: none;
+    }
+    
+    .card:hover .card-text{
+        display: none;
+    }
+    
+    .card:hover .texto-oculto{
+        display: block;
+    }
+}
