@@ -71,7 +71,7 @@ body{
 }
 
 .headline {
-    margin: left 10%;
+    margin:10%;
     flex: 40%;
     margin: 5%;
 }
@@ -103,6 +103,7 @@ body{
 }
 
 .img-headline {
+    margin-top: 3.5%;
     margin-right: 5%;
     margin-left: 5%;
     flex: 40%;
